@@ -1,6 +1,6 @@
 <?php
 
-namespace JenryMA\DependentFilter;
+namespace DevJM\DependentFilter;
 
 use Laravel\Nova\ResourceTool;
 

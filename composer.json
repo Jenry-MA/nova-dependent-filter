@@ -1,5 +1,5 @@
 {
-    "name": "jenry-ma/nova-dependent-filter",
+    "name": "dev-jm/nova-dependent-filter",
     "description": "Cascading/dependent select filters for Laravel Nova 5.",
     "keywords": [
         "laravel",
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "JenryMA\\DependentFilter\\": "src/"
+            "DevJM\\DependentFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JenryMA\\DependentFilter\\ToolServiceProvider"
+                "DevJM\\DependentFilter\\ToolServiceProvider"
             ]
         }
     },

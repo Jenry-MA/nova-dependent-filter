@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use JenryMA\DependentFilter\Http\Controllers\DependentFilterController;
+use DevJM\DependentFilter\Http\Controllers\DependentFilterController;
 
 /*
 |--------------------------------------------------------------------------

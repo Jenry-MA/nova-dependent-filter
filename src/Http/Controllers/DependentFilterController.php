@@ -1,8 +1,8 @@
 <?php
 
-namespace JenryMA\DependentFilter\Http\Controllers;
+namespace DevJM\DependentFilter\Http\Controllers;
 
-use JenryMA\DependentFilter\Nova\Filters\DependentFilter;
+use DevJM\DependentFilter\Nova\Filters\DependentFilter;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;

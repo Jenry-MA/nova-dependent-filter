@@ -1,6 +1,6 @@
 <?php
 
-namespace JenryMA\DependentFilter\Nova\Filters;
+namespace DevJM\DependentFilter\Nova\Filters;
 
 use Closure;
 use Laravel\Nova\Filters\Filter;

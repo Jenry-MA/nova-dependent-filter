@@ -13,7 +13,7 @@ Since Laravel Nova is a private package, add this as a VCS repository in your pr
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/Jenry-MA/nova-dependent-filter"
+        "url": "https://github.com/dev-jm/nova-dependent-filter"
     }
 ]
 ```
@@ -21,7 +21,7 @@ Since Laravel Nova is a private package, add this as a VCS repository in your pr
 Then install via Composer:
 
 ```bash
-composer require jenry-ma/nova-dependent-filter
+composer require dev-jm/nova-dependent-filter
 ```
 
 The package auto-registers its service provider via Laravel's package discovery.
@@ -31,7 +31,7 @@ The package auto-registers its service provider via Laravel's package discovery.
 ## Quick Start
 
 ```php
-use JenryMA\DependentFilter\Nova\Filters\DependentFilter;
+use DevJM\DependentFilter\Nova\Filters\DependentFilter;
 use App\Models\Client;
 use App\Models\Project;
 use App\Models\User;
