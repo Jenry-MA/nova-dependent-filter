@@ -5,7 +5,7 @@ When a user selects a value in a **parent** filter, the **child** filter automat
 
 ## Demo
 
-https://github.com/dev-jm/nova-dependent-filter/raw/main/docs/screenshots/example.mp4
+![Demo](docs/screenshots/example.gif)
 
 In this example, selecting the client **INTLXS** automatically narrows the **Project** filter to only show projects that belong to that client. Then, selecting a project narrows the **User** filter to only show users assigned to that specific project. Clearing a parent filter resets its children back to showing all available options.
 
