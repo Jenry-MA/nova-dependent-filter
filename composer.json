@@ -1,0 +1,33 @@
+{
+    "name": "jenry-ma/nova-dependent-filter",
+    "description": "Cascading/dependent select filters for Laravel Nova 5.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "filter",
+        "dependent",
+        "cascading"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "laravel/nova": "^4.0 || ^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JenryMA\\DependentFilter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JenryMA\\DependentFilter\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

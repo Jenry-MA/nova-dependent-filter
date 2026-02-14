@@ -1,0 +1,5 @@
+/* Nova Resource Tool CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
