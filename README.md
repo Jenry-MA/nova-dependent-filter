@@ -3,22 +3,18 @@
 Cascading/dependent select filters for Laravel Nova 5.
 When a user selects a value in a **parent** filter, the **child** filter automatically narrows its options.
 
+## Demo
+
+https://github.com/dev-jm/nova-dependent-filter/raw/main/docs/screenshots/example.mp4
+
+In this example, selecting the client **INTLXS** automatically narrows the **Project** filter to only show projects that belong to that client. Then, selecting a project narrows the **User** filter to only show users assigned to that specific project. Clearing a parent filter resets its children back to showing all available options.
+
 ---
 
 ## Installation
 
-Since Laravel Nova is a private package, add this as a VCS repository in your project's `composer.json`:
 
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/dev-jm/nova-dependent-filter"
-    }
-]
-```
-
-Then install via Composer:
+Install via Composer:
 
 ```bash
 composer require dev-jm/nova-dependent-filter
@@ -225,19 +221,6 @@ return [
     $userFilter,
 ];
 ```
-
----
-
-## Development
-
-To modify the Vue component and rebuild assets:
-
-```bash
-npm install
-npm run prod
-```
-
----
 
 ## License
 
